@@ -1,0 +1,252 @@
+#pop {
+    border-radius: 4%;
+    background-image: url("/img/Black and White Red Blue Basic Remote Meetings Brainstorm Presentation (640 Ã— 520 px) (2).png");
+    height: 520px;
+    width: 640px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: fixed;
+    z-index: 11;
+    display: none;
+}
+
+#pop {
+    -webkit-box-shadow: 0px 0px 0px 9999px rgba(0, 0, 0, 0.6);
+    box-shadow: 0px 0px 0px 9999px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 0px 9999px rgba(0, 0, 0, 0.5);
+}
+
+#close {
+    color: #ffd97d;
+
+    font-size: 2em;
+    position: absolute;
+    position: fixed;
+    top: 14%;
+    display: none;
+    left: 70%;
+    z-index: 12;
+    cursor: pointer;
+    padding: 4px;
+
+}
+
+#pop-image {
+    margin-top: 172px;
+    margin-left: -56px;
+}
+
+.loop-text {
+    color: white;
+    position: absolute;
+    top: 40px;
+    margin-left: 320px;
+    width: 50%;
+    font-size: 1.8em;
+    letter-spacing: 1PX;
+    animation: blink 2s infinite;
+}
+
+.pop-form {
+    width: 40%;
+    margin-left: 30px;
+    position: absolute;
+    top: 150px;
+
+}
+
+.form-control {
+    margin-top: 10px !important;
+    border: none !important;
+    border-bottom: 1px solid black !important;
+}
+
+
+.pop-heading {
+    color: #231942;
+    position: absolute;
+    top: 44px;
+    font-size: 1.8em;
+    margin-left: 15px;
+    letter-spacing: 1px;
+    font-weight: bold;
+
+}
+
+.sub-text {
+    color: #2d507d;
+    position: absolute;
+    top: 90px;
+    font-weight: bold;
+    margin-left: 39px;
+    letter-spacing: 2.5px;
+}
+
+#quick-contact {
+
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.test {
+    height: 455px;
+    width: 100%;
+    background-color: #97a97c;
+
+}
+
+.privacy-img {
+    width: 1200px;
+    height: 700px;
+    margin-top: -160px;
+}
+
+.privacy-form {
+    width: 80%;
+    margin-left: 200px;
+    margin-top: 80px;
+}
+
+.privacy-btn {
+    background-color: blue;
+}
+
+
+
+.our-cou {
+    height: 430px;
+    width: 100%;
+    background-color: #01497c;
+    padding-left: 23%;
+}
+
+.our-cou-text {
+    color: white;
+    font-weight: bold;
+    margin-left: -18px;
+}
+
+.our-cou-sub-text {
+    color: white;
+    margin-left: -20px;
+    width: 70%;
+}
+
+.our-cou-icon {
+    width: 50px;
+    height: 50px;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1.0
+    }
+
+    25% {
+        opacity: 1.0;
+    }
+
+    50% {
+        opacity: 0;
+    }
+
+    75% {
+        opacity: 1.0;
+    }
+
+    100% {
+        opacity: 1.0;
+    }
+}
+
+
+
+@media (max-width: 575px) {
+
+    #overlay {
+        background-color: transparent;
+
+    }
+
+    .privacy-img {
+        display: none;
+    }
+}
+
+
+
+
+@media (min-width: 2000px) {
+
+    .our-cou {
+        padding-left: 30%;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 1900px) {
+    .our-cou {
+
+        padding-left: 15%;
+    }
+
+    .privacy-img {
+        margin-left: -29%;
+    }
+}
+
+@media (max-width: 767px) {
+    .our-cou {
+        height: 93%;
+        width: 100%;
+        background-color: #171a53;
+        padding-left: 28%;
+    }
+
+    .our-cou-sub-text {
+        color: white;
+        margin-left: -42%;
+        width: 158%;
+    }
+
+    .our-cou-heading {
+        margin-left: -30%;
+    }
+
+    .privacy-form {
+        width: 80% !important;
+        margin-left: 9%;
+    }
+}
+
+@media (min-width: 1100px) and (max-width: 1400px) {
+    .privacy-img {
+        width: 1000px;
+        height: 600px;
+        margin-top: -73px;
+    }
+}
+
+@media (min-width: 1000px) and (max-width: 1100px) {
+    .privacy-img {
+        width: 900px;
+        height: 500px;
+        margin-top: 15px;
+    }
+}
+
+@media (min-width: 767px) and (max-width: 999px) {
+    .privacy-img {
+        width: 650px;
+        height: 350px;
+        margin-top: 147px;
+    }
+
+    .privacy-form {
+        width: 90%;
+        margin-left: 102px;
+    }
+}
